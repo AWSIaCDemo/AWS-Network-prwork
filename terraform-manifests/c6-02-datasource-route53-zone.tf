@@ -1,5 +1,5 @@
 # Get DNS information from AWS Route53
-data "aws_route53_zone" "mydomain" {
+data "aws_route53_zone" "terraform-on-aws-for-ec2-test1" {
   name         = "test1devopsincloud.ca"
 }
 
