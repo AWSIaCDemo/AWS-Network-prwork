@@ -1,7 +1,7 @@
 # Environment
-environment = "dev"
+environment = "Network"
 # VPC Variables
-vpc_name = "myvpc"
+vpc_name = "VPC-Master-connection-001"
 vpc_cidr_block = "10.0.0.0/16"
 vpc_availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
 vpc_public_subnets = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
@@ -18,5 +18,5 @@ instance_keypair = "terraform-key"
 private_instance_count = 2
 
 # DNS Name
-dns_name = "devdemo5.devopsincloud.com"
+dns_name = "test1.devopsincloud.com"
 
